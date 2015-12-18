@@ -257,7 +257,8 @@
 }
 
 - (void)didCancelled {
-  self.hidden = YES;
+    [_delegate datePickerDidCancel];
+    self.hidden = YES;
 }
 
 - (NSDate*)minimumDate {

@@ -45,6 +45,8 @@ NS_ASSUME_NONNULL_BEGIN
            didSelectHour:(NSInteger)hour
                andMinute:(NSInteger)minute;
 
+- (void) timePickerDidCancel;
+
 @end
 
 @interface MDTimePickerDialog : UIControl

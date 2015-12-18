@@ -1287,6 +1287,7 @@
 }
 
 - (void)didCancel {
+    [_delegate timePickerDidCancel];
     [self removeFromSuperview];
 }
 @end

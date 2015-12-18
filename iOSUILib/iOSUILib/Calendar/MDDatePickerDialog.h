@@ -27,6 +27,7 @@
 @protocol MDDatePickerDialogDelegate <NSObject>
 
 - (void)datePickerDialogDidSelectDate:(nonnull NSDate *)date;
+- (void)datePickerDidCancel;
 
 @end
 
